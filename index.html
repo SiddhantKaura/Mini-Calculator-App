@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/46d843a61b.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <h1 class="text-center family-odd">Calculator</h1>
+            <div class="calculator">
+                <div class="display bold-font">0</div>
+                <div class="controls">
+                    <div class="button bold-font" id="all-clear" data-val="AC">AC</div>
+                    <div class="button" id="percentage" data-val="*(1/100)"><i class="fas fa-percent"></i></div>
+                    <div class="button" id="clear" data-val="Clear"><i class="fas fa-backspace"></i></div>
+                    <div class="button color-red" id="divide" data-val="/"><i class="fas fa-divide"></i></div>
+                    <div class="button color-red" id="multiply" data-val="*"><i class="fas fa-times"></i></div>
+
+                    <div class="button bold-font number-7" data-val="7">7</div>
+                    <div class="button bold-font number-8" data-val="8">8</div>
+                    <div class="button bold-font number-9" data-val="9">9</div>
+                    <div class="button color-red" id="addition" data-val="+"><i class="fas fa-plus"></i></div>
+                    <div class="button color-red" id="subtraction" data-val="-"><i class="fas fa-minus"></i></div>
+
+                    <div class="button bold-font number-4" data-val="4">4</div>
+                    <div class="button bold-font number-5" data-val="5">5</div>
+                    <div class="button bold-font number-6" data-val="6">6</div>
+                    <div class="button color-red" id="factorial" data-val="!"><i class="fas fa-exclamation"></i></i>
+                    </div>
+                    <div class="button color-red bold-font" id="modulus" data-val="%"><i>mod</i></div>
+
+                    <div class="button bold-font number-1" data-val="1">1</div>
+                    <div class="button bold-font number-2" data-val="2">2</div>
+                    <div class="button bold-font number-3" data-val="3">3</div>
+                    <div class="button color-red" id="square-root" data-val="sqrt"><i
+                            class="fas fa-square-root-alt"></i></div>
+                    <div class="button color-red bold-font" id="cube-root" data-val="cbrt">&#8731;</div>
+
+                    <div class="button bold-font number-0" data-val="0">0</div>
+                    <div class="button bold-font number-00" data-val="00">00</div>
+                    <div class="button bold-font number-." data-val=".">.</div>
+                    <div class="button bold-font number-(" data-val="(">(</div>
+                    <div class="button bold-font number-)" data-val=")">)</div>
+
+                    <div class="button bold-font number-pi" data-val="3.14">&#960;</div>
+                    <div class="button bold-font number-sin" data-val="sin">sin</div>
+                    <div class="button bold-font number-cos" data-val="cos">cos</div>
+                    <div class="button bold-font number-tan" data-val="tan">tan</div>
+                    <div class="button bold-font number-log" data-val="log">log</div>
+
+                    <div class="button color-orange" id="evaluate" data-val="="><i class="fas fa-equals"></i></div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        Made With <i class="fas fa-heart"></i> By Siddhant Kaura
+    </footer>
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,135 @@
+body {
+    margin: 0rem;
+}
+
+main {
+    width: 100%;
+    height: 95vh;
+    background-image: linear-gradient(-45deg,#E67C44,#CD5145,#C13945);   
+}
+
+footer {
+    vertical-align: bottom;
+    height: 5vh;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 0.5rem;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    word-spacing: 0.2rem;
+    letter-spacing: 0.2rem;
+}
+
+.container {
+    margin: auto;
+    width: 40%;
+    height: 90%;
+    padding-top: 5%;
+    box-sizing: border-box;
+}
+
+.calculator {
+    border: 5px solid black;
+}
+
+.display {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(253, 255, 255);
+    text-align: right;
+    box-sizing: border-box;
+    padding: 0.7rem 1rem;
+    font-size: 1.8rem;
+}
+
+.controls {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding-top: 0.5rem;
+    box-sizing: border-box;
+}
+
+.controls > div {
+    width: 16%;
+    font-size: 1.4rem;
+    color: white;
+    padding: 0.5rem;
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 0.2rem;
+    cursor: context-menu;
+
+}
+
+.bold-font {
+    font-weight: bolder;
+}
+
+div.color-red {
+    background-color: #C13945;
+}
+
+div.color-orange {
+    background-color: #F18E40;
+}
+
+#evaluate {
+    width: 96%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.family-odd {
+    font-family: 'Style Script', cursive;
+    font-size: 5rem;
+    margin-block-start: 0rem;
+    margin-block-end: 0rem;
+    letter-spacing: 0.5rem;
+}
+
+/* Responsiveness */
+
+@media screen and (max-width: 1080px) {
+    .container {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .container {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .container {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 420px) {
+    .container {
+        width: 100%;
+    }
+    
+    .family-odd {
+        font-size: 3rem;
+    }
+    
+    .controls > div {
+        width: 13%;
+    }
+
+    footer {
+        word-spacing: unset;
+        letter-spacing: unset;
+    }
+}
+
